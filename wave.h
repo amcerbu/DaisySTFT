@@ -1,6 +1,8 @@
 // wave.h // interpolated lookup table
 #ifndef WAVE
 
+#include <functional>
+
 namespace soundmath
 {
 	const int TABSIZE = 2048;

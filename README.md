@@ -8,4 +8,4 @@ I've found the program works well when `N = 4096` and `laps = 4` (higher frequen
 
 To compile, make sure you modify the Makefile so that the definitions of `DAISYSP_DIR` and `LIBDAISY_DIR` point to your installations of DaisySP and libDaisy. Then, as usual,
 
-    make clean && make make program-dfu
+    make clean && make && make program-dfu
